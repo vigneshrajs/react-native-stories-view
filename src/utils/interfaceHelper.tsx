@@ -30,7 +30,8 @@ export interface StoryContainerProps extends CommonProps {
     replyView?: ReplyProps | undefined 
     footerComponent?: FunctionComponentElement<CommonProps> | undefined 
 
-    onComplete: Function,  
+    onComplete: Function,
+    onChange: Function,
 }
 
 export interface ProgressViewProps extends CommonProps {
